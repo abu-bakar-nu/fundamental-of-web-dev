@@ -15,7 +15,7 @@ app.use(express.static("public"));
 
 
 //This is the initialization of the database where we connect to the database
-mongoose.connect("mongodb+srv://abu_bakar:abu_123@cluster0.qbjha.mongodb.net/Cluster?retryWrites=true&w=majority", {
+mongoose.connect("paste your link here", {
     useNewUrlParser: true,
     useCreateIndex: true,
     useFindAndModify: false,
