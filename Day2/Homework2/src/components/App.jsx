@@ -1,10 +1,15 @@
 import React from "react";
 import notes from "../notes";
+import Header from "./Header";
+import Footer from "./Footer";
+import Note from "./Note";
 
 function App() {
   return (
     <div>
-    <h1>Successful initialization of your project! Delete this message and get started. May the force be with you!</h1>
+      <Header />
+      <Footer />
+      <div>{notes.map(Note)}</div>
     </div>
   );
 }
